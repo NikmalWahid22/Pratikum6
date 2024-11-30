@@ -44,7 +44,6 @@ def ubah():
     print(f"--- Data mahasiswa '{nama}' tidak ditemukan! ---")
     print("=" * 55)
 
-
 def validasi_nilai(pesan):
     while True:
         try:
@@ -55,12 +54,10 @@ def validasi_nilai(pesan):
         except ValueError:
             print("Input tidak valid. Masukkan angka.")
 
-
 def cetak_pesan(pesan):
     print("=" * 65)
     print(f"{pesan.center(65)}")
     print("=" * 65)
-
 
 def menu():
     while True:
@@ -73,9 +70,9 @@ def menu():
         elif pilihan == "2":
             tampilkan()
         elif pilihan == "3":
-            ubah_hapus("hapus")
+            hapus()
         elif pilihan == "4":
-            ubah_hapus("ubah")
+            ubah()
         elif pilihan == "5":
             cetak_pesan("Program selesai. Terima kasih!")
             break
