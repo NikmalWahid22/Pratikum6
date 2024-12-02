@@ -139,3 +139,29 @@ Apabila Tidak Valid
 ### OPSI MEMILIH ANGKA 5
 
 ![Gambar 16](SS/ss16.png)
+
+## Penjelasan Flowchart 
+
+![Gambar 17](SS/ss17.png)
+
+- Mulai = Program akan dimulai dengan menyiapkan list kosong untuk menyimpan data mahasiswa. 
+
+- Tampilkan menu utama = Program akan menampilkan menu utama dengan opsi berikut 
+    - Tambah data 
+    - Tampilkan data 
+    - Hapus data
+    - Ubah data
+    - Keluar 
+
+- Input Pilihan = Program akan meminta kita memilih kita opsi dari menu (1-5)
+
+- Tambah data = memasukkan data mahasiswa seperti nama dan nilai 
+
+- Tampilkan data = Program memeriksa apakah apakah ada data di daftar mahasiswa: Jika ada data maka data mahasiswa maka data akan ditampilkan, Jika tidak ada data maka program akan mencetak pesan. 
+
+- Hapus data = Progam akan meminta untuk memasukkan nama mahasiwa yang ingin dihapus. 
+
+- Ubah data : Program akan meminta kita memasukkan nama mahasiwa yang ingin di ubah, lalu masukkan nilai baru 
+
+- End = Program akan berhenti setelah pengguna memilih keluar. 
+
